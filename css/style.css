@@ -1,0 +1,54 @@
+
+/* Base css */
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+img{
+    max-width: 100%;
+    height: auto;
+}
+.margin-top-30 {
+    margin-top:  30px;
+}
+.margin-top-95 {
+    margin-top:  95px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-top-130{
+    margin-top: 130px;
+}
+.section-padding.padding-top-0{
+    padding-top: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+color: #313131;
+}
+input:focus, textarea:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input[type=text],input[type=number], input[type=email], select, textarea {
+    border: 1px solid #cacaca;
+    
+    padding: 7px;
+}
+body{
+font-family: 'Gloria Hallelujah', cursive;
+font-size: 16px;
+color: #333;
+line-height: 1.9;
+
+}
+html, body{
+    height: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
